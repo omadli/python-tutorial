@@ -117,12 +117,17 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  
+# Book formats
+formats:
+  - epub
+  - pdf
 
 # Page tree
 nav:
   - Home: index.md
   - Python beginner:
-    - So\'zboshi: python_beginner/sozboshi.md
+    - So'zboshi: python_beginner/sozboshi.md
     - Python haqida: python_beginner/python_haqida.md
     - Pythonni o'rnatish: python_beginner/pythonni_ornatish.md
     - IDE muhit sozlash:
@@ -131,12 +136,12 @@ nav:
       - Pycharm: python_beginner/pycharm.md
     - Python sintaksisi: python_beginner/python_sintaksisi.md
   - Python core:
-    - So\'zboshi: python_core/sozboshi.md
+    - So'zboshi: python_core/sozboshi.md
   - Django:
-    - So\'zboshi: django/sozboshi.md
+    - So'zboshi: django/sozboshi.md
   - Telegram bot:
-    - So\'zboshi: telegram_bot/sozboshi.md
+    - So'zboshi: telegram_bot/sozboshi.md
     - Aiogram: 
-      - O\'rnatish: telegram_bot/aiogram/ornatish.md
+      - O'rnatish: telegram_bot/aiogram/ornatish.md
   - Tips and Trics:
-    - So\'zboshi: tips_and_trics/sozboshi.md
+    - So'zboshi: tips_and_trics/sozboshi.md
